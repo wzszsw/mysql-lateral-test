@@ -1,0 +1,1066 @@
+[
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "org.example.benchmark.MySQLQueryBenchmark.correlatedSubqueryQuery",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "C:\\Users\\l1622\\.version-fox\\cache\\java\\current\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dclassworlds.conf=D:\\develop\\apache-maven-3.6.3\\bin\\..\\bin\\m2.conf",
+            "-Dmaven.home=D:\\develop\\apache-maven-3.6.3\\bin\\..",
+            "-Dlibrary.jansi.path=D:\\develop\\apache-maven-3.6.3\\bin\\..\\lib\\jansi-native",
+            "-Dmaven.multiModuleProjectDirectory=D:\\IdeaProjects\\podman-demo"
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "3 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "salesCount" : "10000",
+            "salespersonCount" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 6.504136946402984,
+            "scoreError" : 0.9347122516925956,
+            "scoreConfidence" : [
+                5.5694246947103885,
+                7.43884919809558
+            ],
+            "scorePercentiles" : {
+                "0.0" : 6.1472576687116565,
+                "50.0" : 6.613508131868132,
+                "90.0" : 6.762854708520179,
+                "95.0" : 6.762854708520179,
+                "99.0" : 6.762854708520179,
+                "99.9" : 6.762854708520179,
+                "99.99" : 6.762854708520179,
+                "99.999" : 6.762854708520179,
+                "99.9999" : 6.762854708520179,
+                "100.0" : 6.762854708520179
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    6.1472576687116565,
+                    6.613508131868132,
+                    6.762854708520179,
+                    6.619717400881057,
+                    6.377346822033898
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "org.example.benchmark.MySQLQueryBenchmark.correlatedSubqueryQuery",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "C:\\Users\\l1622\\.version-fox\\cache\\java\\current\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dclassworlds.conf=D:\\develop\\apache-maven-3.6.3\\bin\\..\\bin\\m2.conf",
+            "-Dmaven.home=D:\\develop\\apache-maven-3.6.3\\bin\\..",
+            "-Dlibrary.jansi.path=D:\\develop\\apache-maven-3.6.3\\bin\\..\\lib\\jansi-native",
+            "-Dmaven.multiModuleProjectDirectory=D:\\IdeaProjects\\podman-demo"
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "3 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "salesCount" : "10000",
+            "salespersonCount" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 10.513103355404054,
+            "scoreError" : 0.5891849834716049,
+            "scoreConfidence" : [
+                9.92391837193245,
+                11.102288338875658
+            ],
+            "scorePercentiles" : {
+                "0.0" : 10.375366206896551,
+                "50.0" : 10.457335069444444,
+                "90.0" : 10.703993950177935,
+                "95.0" : 10.703993950177935,
+                "99.0" : 10.703993950177935,
+                "99.9" : 10.703993950177935,
+                "99.99" : 10.703993950177935,
+                "99.999" : 10.703993950177935,
+                "99.9999" : 10.703993950177935,
+                "100.0" : 10.703993950177935
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    10.375366206896551,
+                    10.381890344827585,
+                    10.457335069444444,
+                    10.703993950177935,
+                    10.64693120567376
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "org.example.benchmark.MySQLQueryBenchmark.correlatedSubqueryQuery",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "C:\\Users\\l1622\\.version-fox\\cache\\java\\current\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dclassworlds.conf=D:\\develop\\apache-maven-3.6.3\\bin\\..\\bin\\m2.conf",
+            "-Dmaven.home=D:\\develop\\apache-maven-3.6.3\\bin\\..",
+            "-Dlibrary.jansi.path=D:\\develop\\apache-maven-3.6.3\\bin\\..\\lib\\jansi-native",
+            "-Dmaven.multiModuleProjectDirectory=D:\\IdeaProjects\\podman-demo"
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "3 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "salesCount" : "10000",
+            "salespersonCount" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 15.037582596816241,
+            "scoreError" : 1.1228826726369288,
+            "scoreConfidence" : [
+                13.914699924179313,
+                16.16046526945317
+            ],
+            "scorePercentiles" : {
+                "0.0" : 14.762032352941176,
+                "50.0" : 14.890232178217822,
+                "90.0" : 15.459915384615385,
+                "95.0" : 15.459915384615385,
+                "99.0" : 15.459915384615385,
+                "99.9" : 15.459915384615385,
+                "99.99" : 15.459915384615385,
+                "99.999" : 15.459915384615385,
+                "99.9999" : 15.459915384615385,
+                "100.0" : 15.459915384615385
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    15.21694494949495,
+                    14.890232178217822,
+                    14.858788118811882,
+                    15.459915384615385,
+                    14.762032352941176
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "org.example.benchmark.MySQLQueryBenchmark.correlatedSubqueryQuery",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "C:\\Users\\l1622\\.version-fox\\cache\\java\\current\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dclassworlds.conf=D:\\develop\\apache-maven-3.6.3\\bin\\..\\bin\\m2.conf",
+            "-Dmaven.home=D:\\develop\\apache-maven-3.6.3\\bin\\..",
+            "-Dlibrary.jansi.path=D:\\develop\\apache-maven-3.6.3\\bin\\..\\lib\\jansi-native",
+            "-Dmaven.multiModuleProjectDirectory=D:\\IdeaProjects\\podman-demo"
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "3 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "salesCount" : "50000",
+            "salespersonCount" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 25.43690803090852,
+            "scoreError" : 1.769576353987261,
+            "scoreConfidence" : [
+                23.667331676921258,
+                27.20648438489578
+            ],
+            "scorePercentiles" : {
+                "0.0" : 24.775319672131147,
+                "50.0" : 25.497418644067796,
+                "90.0" : 25.903077586206898,
+                "95.0" : 25.903077586206898,
+                "99.0" : 25.903077586206898,
+                "99.9" : 25.903077586206898,
+                "99.99" : 25.903077586206898,
+                "99.999" : 25.903077586206898,
+                "99.9999" : 25.903077586206898,
+                "100.0" : 25.903077586206898
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    25.497418644067796,
+                    24.775319672131147,
+                    25.2068875,
+                    25.80183675213675,
+                    25.903077586206898
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "org.example.benchmark.MySQLQueryBenchmark.correlatedSubqueryQuery",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "C:\\Users\\l1622\\.version-fox\\cache\\java\\current\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dclassworlds.conf=D:\\develop\\apache-maven-3.6.3\\bin\\..\\bin\\m2.conf",
+            "-Dmaven.home=D:\\develop\\apache-maven-3.6.3\\bin\\..",
+            "-Dlibrary.jansi.path=D:\\develop\\apache-maven-3.6.3\\bin\\..\\lib\\jansi-native",
+            "-Dmaven.multiModuleProjectDirectory=D:\\IdeaProjects\\podman-demo"
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "3 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "salesCount" : "50000",
+            "salespersonCount" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 30.134516844878966,
+            "scoreError" : 2.691684834597257,
+            "scoreConfidence" : [
+                27.44283201028171,
+                32.82620167947622
+            ],
+            "scorePercentiles" : {
+                "0.0" : 29.42741274509804,
+                "50.0" : 30.063666336633663,
+                "90.0" : 31.021332653061226,
+                "95.0" : 31.021332653061226,
+                "99.0" : 31.021332653061226,
+                "99.9" : 31.021332653061226,
+                "99.99" : 31.021332653061226,
+                "99.999" : 31.021332653061226,
+                "99.9999" : 31.021332653061226,
+                "100.0" : 31.021332653061226
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    29.50687450980392,
+                    30.65329797979798,
+                    31.021332653061226,
+                    30.063666336633663,
+                    29.42741274509804
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "org.example.benchmark.MySQLQueryBenchmark.correlatedSubqueryQuery",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "C:\\Users\\l1622\\.version-fox\\cache\\java\\current\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dclassworlds.conf=D:\\develop\\apache-maven-3.6.3\\bin\\..\\bin\\m2.conf",
+            "-Dmaven.home=D:\\develop\\apache-maven-3.6.3\\bin\\..",
+            "-Dlibrary.jansi.path=D:\\develop\\apache-maven-3.6.3\\bin\\..\\lib\\jansi-native",
+            "-Dmaven.multiModuleProjectDirectory=D:\\IdeaProjects\\podman-demo"
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "3 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "salesCount" : "50000",
+            "salespersonCount" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 35.165838588999236,
+            "scoreError" : 3.0039306775337087,
+            "scoreConfidence" : [
+                32.161907911465526,
+                38.169769266532946
+            ],
+            "scorePercentiles" : {
+                "0.0" : 34.15685568181818,
+                "50.0" : 35.486897647058825,
+                "90.0" : 35.917482142857146,
+                "95.0" : 35.917482142857146,
+                "99.0" : 35.917482142857146,
+                "99.9" : 35.917482142857146,
+                "99.99" : 35.917482142857146,
+                "99.999" : 35.917482142857146,
+                "99.9999" : 35.917482142857146,
+                "100.0" : 35.917482142857146
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    35.917482142857146,
+                    35.486897647058825,
+                    34.15685568181818,
+                    34.523171590909094,
+                    35.74478588235294
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "org.example.benchmark.MySQLQueryBenchmark.lateralQuery",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "C:\\Users\\l1622\\.version-fox\\cache\\java\\current\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dclassworlds.conf=D:\\develop\\apache-maven-3.6.3\\bin\\..\\bin\\m2.conf",
+            "-Dmaven.home=D:\\develop\\apache-maven-3.6.3\\bin\\..",
+            "-Dlibrary.jansi.path=D:\\develop\\apache-maven-3.6.3\\bin\\..\\lib\\jansi-native",
+            "-Dmaven.multiModuleProjectDirectory=D:\\IdeaProjects\\podman-demo"
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "3 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "salesCount" : "10000",
+            "salespersonCount" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 9.397860156304471,
+            "scoreError" : 1.324853171270336,
+            "scoreConfidence" : [
+                8.073006985034135,
+                10.722713327574807
+            ],
+            "scorePercentiles" : {
+                "0.0" : 9.073477477477477,
+                "50.0" : 9.230327828746177,
+                "90.0" : 9.89139606557377,
+                "95.0" : 9.89139606557377,
+                "99.0" : 9.89139606557377,
+                "99.9" : 9.89139606557377,
+                "99.99" : 9.89139606557377,
+                "99.999" : 9.89139606557377,
+                "99.9999" : 9.89139606557377,
+                "100.0" : 9.89139606557377
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    9.230327828746177,
+                    9.177232317073171,
+                    9.616867092651757,
+                    9.89139606557377,
+                    9.073477477477477
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "org.example.benchmark.MySQLQueryBenchmark.lateralQuery",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "C:\\Users\\l1622\\.version-fox\\cache\\java\\current\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dclassworlds.conf=D:\\develop\\apache-maven-3.6.3\\bin\\..\\bin\\m2.conf",
+            "-Dmaven.home=D:\\develop\\apache-maven-3.6.3\\bin\\..",
+            "-Dlibrary.jansi.path=D:\\develop\\apache-maven-3.6.3\\bin\\..\\lib\\jansi-native",
+            "-Dmaven.multiModuleProjectDirectory=D:\\IdeaProjects\\podman-demo"
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "3 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "salesCount" : "10000",
+            "salespersonCount" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 10.469034608158038,
+            "scoreError" : 1.0619768553492677,
+            "scoreConfidence" : [
+                9.40705775280877,
+                11.531011463507307
+            ],
+            "scorePercentiles" : {
+                "0.0" : 10.161329391891892,
+                "50.0" : 10.390916262975779,
+                "90.0" : 10.836661510791368,
+                "95.0" : 10.836661510791368,
+                "99.0" : 10.836661510791368,
+                "99.9" : 10.836661510791368,
+                "99.99" : 10.836661510791368,
+                "99.999" : 10.836661510791368,
+                "99.9999" : 10.836661510791368,
+                "100.0" : 10.836661510791368
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    10.836661510791368,
+                    10.662720141342756,
+                    10.293545733788395,
+                    10.161329391891892,
+                    10.390916262975779
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "org.example.benchmark.MySQLQueryBenchmark.lateralQuery",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "C:\\Users\\l1622\\.version-fox\\cache\\java\\current\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dclassworlds.conf=D:\\develop\\apache-maven-3.6.3\\bin\\..\\bin\\m2.conf",
+            "-Dmaven.home=D:\\develop\\apache-maven-3.6.3\\bin\\..",
+            "-Dlibrary.jansi.path=D:\\develop\\apache-maven-3.6.3\\bin\\..\\lib\\jansi-native",
+            "-Dmaven.multiModuleProjectDirectory=D:\\IdeaProjects\\podman-demo"
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "3 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "salesCount" : "10000",
+            "salespersonCount" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 12.249994628989132,
+            "scoreError" : 0.7557161731630435,
+            "scoreConfidence" : [
+                11.494278455826088,
+                13.005710802152176
+            ],
+            "scorePercentiles" : {
+                "0.0" : 12.044496812749005,
+                "50.0" : 12.195487449392713,
+                "90.0" : 12.463338842975206,
+                "95.0" : 12.463338842975206,
+                "99.0" : 12.463338842975206,
+                "99.9" : 12.463338842975206,
+                "99.99" : 12.463338842975206,
+                "99.999" : 12.463338842975206,
+                "99.9999" : 12.463338842975206,
+                "100.0" : 12.463338842975206
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    12.096884337349397,
+                    12.044496812749005,
+                    12.463338842975206,
+                    12.195487449392713,
+                    12.449765702479338
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "org.example.benchmark.MySQLQueryBenchmark.lateralQuery",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "C:\\Users\\l1622\\.version-fox\\cache\\java\\current\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dclassworlds.conf=D:\\develop\\apache-maven-3.6.3\\bin\\..\\bin\\m2.conf",
+            "-Dmaven.home=D:\\develop\\apache-maven-3.6.3\\bin\\..",
+            "-Dlibrary.jansi.path=D:\\develop\\apache-maven-3.6.3\\bin\\..\\lib\\jansi-native",
+            "-Dmaven.multiModuleProjectDirectory=D:\\IdeaProjects\\podman-demo"
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "3 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "salesCount" : "50000",
+            "salespersonCount" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 44.70117539297057,
+            "scoreError" : 5.576666794368886,
+            "scoreConfidence" : [
+                39.124508598601686,
+                50.27784218733945
+            ],
+            "scorePercentiles" : {
+                "0.0" : 42.61220845070422,
+                "50.0" : 45.01544328358209,
+                "90.0" : 46.08237121212121,
+                "95.0" : 46.08237121212121,
+                "99.0" : 46.08237121212121,
+                "99.9" : 46.08237121212121,
+                "99.99" : 46.08237121212121,
+                "99.999" : 46.08237121212121,
+                "99.9999" : 46.08237121212121,
+                "100.0" : 46.08237121212121
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    46.08237121212121,
+                    43.91254492753623,
+                    45.01544328358209,
+                    42.61220845070422,
+                    45.883309090909094
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "org.example.benchmark.MySQLQueryBenchmark.lateralQuery",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "C:\\Users\\l1622\\.version-fox\\cache\\java\\current\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dclassworlds.conf=D:\\develop\\apache-maven-3.6.3\\bin\\..\\bin\\m2.conf",
+            "-Dmaven.home=D:\\develop\\apache-maven-3.6.3\\bin\\..",
+            "-Dlibrary.jansi.path=D:\\develop\\apache-maven-3.6.3\\bin\\..\\lib\\jansi-native",
+            "-Dmaven.multiModuleProjectDirectory=D:\\IdeaProjects\\podman-demo"
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "3 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "salesCount" : "50000",
+            "salespersonCount" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 45.597266792541305,
+            "scoreError" : 4.082526603495342,
+            "scoreConfidence" : [
+                41.514740189045966,
+                49.679793396036644
+            ],
+            "scorePercentiles" : {
+                "0.0" : 44.55651029411765,
+                "50.0" : 45.127876119402984,
+                "90.0" : 47.24714375,
+                "95.0" : 47.24714375,
+                "99.0" : 47.24714375,
+                "99.9" : 47.24714375,
+                "99.99" : 47.24714375,
+                "99.999" : 47.24714375,
+                "99.9999" : 47.24714375,
+                "100.0" : 47.24714375
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    45.127876119402984,
+                    44.55651029411765,
+                    46.00745454545454,
+                    47.24714375,
+                    45.04734925373134
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "org.example.benchmark.MySQLQueryBenchmark.lateralQuery",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "C:\\Users\\l1622\\.version-fox\\cache\\java\\current\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dclassworlds.conf=D:\\develop\\apache-maven-3.6.3\\bin\\..\\bin\\m2.conf",
+            "-Dmaven.home=D:\\develop\\apache-maven-3.6.3\\bin\\..",
+            "-Dlibrary.jansi.path=D:\\develop\\apache-maven-3.6.3\\bin\\..\\lib\\jansi-native",
+            "-Dmaven.multiModuleProjectDirectory=D:\\IdeaProjects\\podman-demo"
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "3 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "salesCount" : "50000",
+            "salespersonCount" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 47.55059000244201,
+            "scoreError" : 2.0477742057570674,
+            "scoreConfidence" : [
+                45.50281579668494,
+                49.59836420819907
+            ],
+            "scorePercentiles" : {
+                "0.0" : 46.965552307692306,
+                "50.0" : 47.800085714285714,
+                "90.0" : 48.01793333333333,
+                "95.0" : 48.01793333333333,
+                "99.0" : 48.01793333333333,
+                "99.9" : 48.01793333333333,
+                "99.99" : 48.01793333333333,
+                "99.999" : 48.01793333333333,
+                "99.9999" : 48.01793333333333,
+                "100.0" : 48.01793333333333
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    48.01793333333333,
+                    47.98450634920635,
+                    46.965552307692306,
+                    46.98487230769231,
+                    47.800085714285714
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "org.example.benchmark.MySQLQueryBenchmark.windowFunctionQuery",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "C:\\Users\\l1622\\.version-fox\\cache\\java\\current\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dclassworlds.conf=D:\\develop\\apache-maven-3.6.3\\bin\\..\\bin\\m2.conf",
+            "-Dmaven.home=D:\\develop\\apache-maven-3.6.3\\bin\\..",
+            "-Dlibrary.jansi.path=D:\\develop\\apache-maven-3.6.3\\bin\\..\\lib\\jansi-native",
+            "-Dmaven.multiModuleProjectDirectory=D:\\IdeaProjects\\podman-demo"
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "3 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "salesCount" : "10000",
+            "salespersonCount" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 7.124423590121603,
+            "scoreError" : 0.7048774246362287,
+            "scoreConfidence" : [
+                6.419546165485374,
+                7.829301014757832
+            ],
+            "scorePercentiles" : {
+                "0.0" : 6.8655771689497715,
+                "50.0" : 7.1599600950118765,
+                "90.0" : 7.369516870415648,
+                "95.0" : 7.369516870415648,
+                "99.0" : 7.369516870415648,
+                "99.9" : 7.369516870415648,
+                "99.99" : 7.369516870415648,
+                "99.999" : 7.369516870415648,
+                "99.9999" : 7.369516870415648,
+                "100.0" : 7.369516870415648
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    6.8655771689497715,
+                    7.061266197183099,
+                    7.165797619047619,
+                    7.1599600950118765,
+                    7.369516870415648
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "org.example.benchmark.MySQLQueryBenchmark.windowFunctionQuery",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "C:\\Users\\l1622\\.version-fox\\cache\\java\\current\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dclassworlds.conf=D:\\develop\\apache-maven-3.6.3\\bin\\..\\bin\\m2.conf",
+            "-Dmaven.home=D:\\develop\\apache-maven-3.6.3\\bin\\..",
+            "-Dlibrary.jansi.path=D:\\develop\\apache-maven-3.6.3\\bin\\..\\lib\\jansi-native",
+            "-Dmaven.multiModuleProjectDirectory=D:\\IdeaProjects\\podman-demo"
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "3 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "salesCount" : "10000",
+            "salespersonCount" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 7.446040095921788,
+            "scoreError" : 0.624923218338381,
+            "scoreConfidence" : [
+                6.821116877583407,
+                8.070963314260169
+            ],
+            "scorePercentiles" : {
+                "0.0" : 7.238011057692308,
+                "50.0" : 7.494944029850746,
+                "90.0" : 7.632674111675127,
+                "95.0" : 7.632674111675127,
+                "99.0" : 7.632674111675127,
+                "99.9" : 7.632674111675127,
+                "99.99" : 7.632674111675127,
+                "99.999" : 7.632674111675127,
+                "99.9999" : 7.632674111675127,
+                "100.0" : 7.632674111675127
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    7.494944029850746,
+                    7.542908020050126,
+                    7.238011057692308,
+                    7.632674111675127,
+                    7.321663260340633
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "org.example.benchmark.MySQLQueryBenchmark.windowFunctionQuery",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "C:\\Users\\l1622\\.version-fox\\cache\\java\\current\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dclassworlds.conf=D:\\develop\\apache-maven-3.6.3\\bin\\..\\bin\\m2.conf",
+            "-Dmaven.home=D:\\develop\\apache-maven-3.6.3\\bin\\..",
+            "-Dlibrary.jansi.path=D:\\develop\\apache-maven-3.6.3\\bin\\..\\lib\\jansi-native",
+            "-Dmaven.multiModuleProjectDirectory=D:\\IdeaProjects\\podman-demo"
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "3 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "salesCount" : "10000",
+            "salespersonCount" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 8.19975929937065,
+            "scoreError" : 0.32069661027301244,
+            "scoreConfidence" : [
+                7.879062689097637,
+                8.520455909643662
+            ],
+            "scorePercentiles" : {
+                "0.0" : 8.107218059299191,
+                "50.0" : 8.226325340599455,
+                "90.0" : 8.29795879120879,
+                "95.0" : 8.29795879120879,
+                "99.0" : 8.29795879120879,
+                "99.9" : 8.29795879120879,
+                "99.99" : 8.29795879120879,
+                "99.999" : 8.29795879120879,
+                "99.9999" : 8.29795879120879,
+                "100.0" : 8.29795879120879
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    8.226325340599455,
+                    8.107218059299191,
+                    8.119176819407008,
+                    8.248117486338797,
+                    8.29795879120879
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "org.example.benchmark.MySQLQueryBenchmark.windowFunctionQuery",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "C:\\Users\\l1622\\.version-fox\\cache\\java\\current\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dclassworlds.conf=D:\\develop\\apache-maven-3.6.3\\bin\\..\\bin\\m2.conf",
+            "-Dmaven.home=D:\\develop\\apache-maven-3.6.3\\bin\\..",
+            "-Dlibrary.jansi.path=D:\\develop\\apache-maven-3.6.3\\bin\\..\\lib\\jansi-native",
+            "-Dmaven.multiModuleProjectDirectory=D:\\IdeaProjects\\podman-demo"
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "3 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "salesCount" : "50000",
+            "salespersonCount" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 33.892385897963,
+            "scoreError" : 2.607672780461995,
+            "scoreConfidence" : [
+                31.284713117501006,
+                36.500058678425
+            ],
+            "scorePercentiles" : {
+                "0.0" : 32.98365108695652,
+                "50.0" : 33.85826741573034,
+                "90.0" : 34.85483448275862,
+                "95.0" : 34.85483448275862,
+                "99.0" : 34.85483448275862,
+                "99.9" : 34.85483448275862,
+                "99.99" : 34.85483448275862,
+                "99.999" : 34.85483448275862,
+                "99.9999" : 34.85483448275862,
+                "100.0" : 34.85483448275862
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    33.68139111111111,
+                    34.85483448275862,
+                    34.083785393258424,
+                    32.98365108695652,
+                    33.85826741573034
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "org.example.benchmark.MySQLQueryBenchmark.windowFunctionQuery",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "C:\\Users\\l1622\\.version-fox\\cache\\java\\current\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dclassworlds.conf=D:\\develop\\apache-maven-3.6.3\\bin\\..\\bin\\m2.conf",
+            "-Dmaven.home=D:\\develop\\apache-maven-3.6.3\\bin\\..",
+            "-Dlibrary.jansi.path=D:\\develop\\apache-maven-3.6.3\\bin\\..\\lib\\jansi-native",
+            "-Dmaven.multiModuleProjectDirectory=D:\\IdeaProjects\\podman-demo"
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "3 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "salesCount" : "50000",
+            "salespersonCount" : "500"
+        },
+        "primaryMetric" : {
+            "score" : 33.46270965742532,
+            "scoreError" : 3.338503048838249,
+            "scoreConfidence" : [
+                30.124206608587073,
+                36.80121270626357
+            ],
+            "scorePercentiles" : {
+                "0.0" : 32.168968085106386,
+                "50.0" : 33.462647777777775,
+                "90.0" : 34.57950909090909,
+                "95.0" : 34.57950909090909,
+                "99.0" : 34.57950909090909,
+                "99.9" : 34.57950909090909,
+                "99.99" : 34.57950909090909,
+                "99.999" : 34.57950909090909,
+                "99.9999" : 34.57950909090909,
+                "100.0" : 34.57950909090909
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    33.738392222222224,
+                    32.168968085106386,
+                    33.36403111111111,
+                    33.462647777777775,
+                    34.57950909090909
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "org.example.benchmark.MySQLQueryBenchmark.windowFunctionQuery",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 0,
+        "jvm" : "C:\\Users\\l1622\\.version-fox\\cache\\java\\current\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dclassworlds.conf=D:\\develop\\apache-maven-3.6.3\\bin\\..\\bin\\m2.conf",
+            "-Dmaven.home=D:\\develop\\apache-maven-3.6.3\\bin\\..",
+            "-Dlibrary.jansi.path=D:\\develop\\apache-maven-3.6.3\\bin\\..\\lib\\jansi-native",
+            "-Dmaven.multiModuleProjectDirectory=D:\\IdeaProjects\\podman-demo"
+        ],
+        "jdkVersion" : "21.0.9",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.9+10-LTS",
+        "warmupIterations" : 3,
+        "warmupTime" : "2 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 5,
+        "measurementTime" : "3 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "salesCount" : "50000",
+            "salespersonCount" : "1000"
+        },
+        "primaryMetric" : {
+            "score" : 34.73678876787713,
+            "scoreError" : 1.9566426635963752,
+            "scoreConfidence" : [
+                32.78014610428075,
+                36.693431431473506
+            ],
+            "scorePercentiles" : {
+                "0.0" : 34.31132840909091,
+                "50.0" : 34.51635113636364,
+                "90.0" : 35.46085882352941,
+                "95.0" : 35.46085882352941,
+                "99.0" : 35.46085882352941,
+                "99.9" : 35.46085882352941,
+                "99.99" : 35.46085882352941,
+                "99.999" : 35.46085882352941,
+                "99.9999" : 35.46085882352941,
+                "100.0" : 35.46085882352941
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    35.06909069767442,
+                    35.46085882352941,
+                    34.51635113636364,
+                    34.32631477272727,
+                    34.31132840909091
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+
